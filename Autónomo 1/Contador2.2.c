@@ -3,6 +3,8 @@
 #include <string.h> // Necesaria para manejar cadenas de texto
 #include <stdlib.h>
 
+// argc: cuenta cuántos argumentos se pasaron
+// argv: es un arreglo con las palabras escritas en la terminal
 int main(int argc, char *argv[]) {
     // 1. Verificamos si se pasó el nombre del archivo como argumento
     if (argc < 2) {
